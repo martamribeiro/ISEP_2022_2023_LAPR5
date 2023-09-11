@@ -1,0 +1,290 @@
+[
+    {
+        "id": "1",
+        "designcacao": "Arouca",
+        "morada": {
+            "rua": "Rua de Arouca",
+            "numeroPorta": 10,
+            "codigoPostal": "4754-100",
+            "localidade": "Arouca",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 40.9321,
+            "longitude": 8.2451,
+            "altitude": 250
+        }
+    },
+
+    {
+        "id": "2",
+        "designcacao": "Espinho",
+        "morada": {
+            "rua": "Rua de Espinho",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-101",
+            "localidade": "Espinho",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude":  41.0072,
+            "longitude": 8.6410,
+            "altitude": 550
+        }
+    },
+
+    {
+        "id": "3",
+        "designcacao": "Gondomar",
+        "morada": {
+            "rua": "Rua de Gondomar",
+            "numeroPorta": 12,
+            "codigoPostal": "4754-102",
+            "localidade": "Gondomar",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 42.1115,
+            "longitude": 8.7613,
+            "altitude": 200
+        }
+    },
+
+    {
+        "id": "4",
+        "designcacao": "Maia",
+        "morada": {
+            "rua": "Rua de Maia",
+            "numeroPorta": 13,
+            "codigoPostal": "4754-103",
+            "localidade": "Maia",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.2279,
+            "longitude": 8.6210,
+            "altitude": 700
+        }
+    },
+
+    {
+        "id": "5",
+        "designcacao": "Matosinhos",
+        "morada": {
+            "rua": "Rua de Matosinhos",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-104",
+            "localidade": "Matosinhos",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.1844,
+            "longitude": 8.6963,
+            "altitude": 350
+        }
+    },
+
+    {
+        "id": "6",
+        "designcacao": "Oliveira de Azeméis",
+        "morada": {
+            "rua": "Rua de Azemeis",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-105",
+            "localidade": "Azemeis",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 40.8387,
+            "longitude": 8.4770,
+            "altitude": 750
+        }
+    },
+
+    {
+        "id": "7",
+        "designcacao": "Paredes",
+        "morada": {
+            "rua": "Rua de Paredes",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-106",
+            "localidade": "Paredes",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.2052,
+            "longitude": 8.3304,
+            "altitude": 0
+        }
+    },
+
+    {
+        "id": "8",
+        "designcacao": "Porto",
+        "morada": {
+            "rua": "Rua de Porto",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-107",
+            "localidade": "Porto",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.1579,
+            "longitude": 8.6291,
+            "altitude": 600
+        }
+    },
+
+    {
+        "id": "9",
+        "designcacao": "Póvoa de Varzim ",
+        "morada": {
+            "rua": "Rua de Povoa",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-108",
+            "localidade": "Povoa",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.3804,
+            "longitude": 8.7609,
+            "altitude": 400
+        }
+    },
+
+    {
+        "id": "10",
+        "designcacao": "Santa Maria da Feira",
+        "morada": {
+            "rua": "Rua de Santa",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-109",
+            "localidade": "Santa",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 40.9268,
+            "longitude": 8.5483,
+            "altitude": 100
+        }
+    },
+
+    {
+        "id": "11",
+        "designcacao": "Santo Tirso",
+        "morada": {
+            "rua": "Rua de Santo",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-110",
+            "localidade": "Santo",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.3431,
+            "longitude": 8.4738,
+            "altitude": 650
+        }
+    },
+
+    {
+        "id": "12",
+        "designcacao": "São João da Madeira",
+        "morada": {
+            "rua": "Rua de São",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-111",
+            "localidade": "São",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 40.9005,
+            "longitude": 8.4907,
+            "altitude": 300
+        }
+    },
+
+    {
+        "id": "13",
+        "designcacao": "Trofa",
+        "morada": {
+            "rua": "Rua de Trofa",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-112",
+            "localidade": "São",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.3391,
+            "longitude": 8.5600,
+            "altitude": 450
+        }
+    },
+
+    {
+        "id": "14",
+        "designcacao": "Vale de Cambra ",
+        "morada": {
+            "rua": "Rua de Cambra",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-113",
+            "localidade": "Cambra",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 40.8430,
+            "longitude": 8.3956,
+            "altitude": 50
+        }
+    },
+
+    {
+        "id": "15",
+        "designcacao": "Valongo",
+        "morada": {
+            "rua": "Rua de Valongo",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-114",
+            "localidade": "Valongo",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.1887,
+            "longitude": 8.4983,
+            "altitude": 800
+        }
+    },
+
+    {
+        "id": "16",
+        "designcacao": "Vila do Conde",
+        "morada": {
+            "rua": "Rua de Conde",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-115",
+            "localidade": "Conde",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.3517,
+            "longitude": 8.7479,
+            "altitude": 150
+        }
+    },
+
+    {
+        "id": "17",
+        "designcacao": "Vila Nova de Gaia",
+        "morada": {
+            "rua": "Rua de Gaia",
+            "numeroPorta": 11,
+            "codigoPostal": "4754-116",
+            "localidade": "Gaia",
+            "pais": "Portugal"
+        },
+        "coordenadas" : {
+            "latitude": 41.1239,
+            "longitude": 8.6118,
+            "altitude": 500
+        }
+    }
+]

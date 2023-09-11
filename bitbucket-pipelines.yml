@@ -1,0 +1,45 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+pipelines:
+  branches:
+    master:
+        - parallel:
+          - step:
+              name: '.NET Build and Test'
+              image: mcr.microsoft.com/dotnet/sdk:6.0
+              script:
+                - cd GestaoArmazens
+                - dotnet tool install --global dotnet-ef
+                - dotnet tool update --global dotnet-ef
+                - dotnet build
+                - dotnet test
+          - step:
+              name: 'Node.js Build and Test'
+              image: node:16.15.1
+              script:
+                - cd Logistica
+                - npm update
+                - npm install
+                - npm install nodemon --save
+                - npm install node-fetch@2.6.1
+                - npm install --save-dev @types/node-fetch@2.x
+                - npm run build
+                - node --version
+
+          - step:
+              name: 'SPA Deployment'  
+              image: node:16.15.1
+              deployment: staging 
+              script:
+                - cd SPA
+                - cd src
+                - mv Imagens imagens
+                - cd ..
+                - npm install --save --legacy-peer-deps
+                - npm run build
+                - echo "Copying files to VM..."
+                - scp -P 10258 -r build/* root@vsgate-ssh.dei.isep.ipp.pt:/var/www/10.9.21.2 
+                - echo "Done!"

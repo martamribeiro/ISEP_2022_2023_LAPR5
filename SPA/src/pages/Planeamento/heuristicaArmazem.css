@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-heuristica-armazem{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-heuristica-armazem{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-heuristica-armazem > h1 {
+    font-size: 3vw;
+    color: #ffc300;
+}
+
+.right-heuristica-armazem{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-heuristica-armazem{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-right: 40px;
+}
+
+.card-heuristica-armazem > h1{
+    color: #ffd60a;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield-heuristica-armazem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    /*margin-bottom: 15px;
+    display: flex;
+    align-items: center;*/
+}
+
+.textfield-heuristica-armazem > input{
+    width: 100%;
+    /*border: none;*/
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 15px;
+    background: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield-heuristica-armazem > label {
+    color: #fffbf0de;
+    margin-bottom: 10px;
+    /*width: 200px;
+    margin-right: 10px;
+    font-size: 14px;*/
+}
+
+.textfield-heuristica-armazem > input::placeholder{
+    color: #fffbf094;
+}
+
+.textfield-entrega > input:hover{
+    border: 1px solid #ffc300;
+}
+
+.opcoes-planeamento {
+    display: flex;
+    margin-top: 20px;
+}
+
+.opcoes-planeamento > label {
+    color: #fffbf0de;
+    margin-bottom: 10px;
+}
+
+.opcoes-planeamento > select {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.btn-heuristica-armazem{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-home{
+    width: 5%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
+
+.output-planeamento table {
+    width: 70%;
+  }
+
+.output-planeamento th{
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+  }
+.output-planeamento td{
+    padding: 5px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 10px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }

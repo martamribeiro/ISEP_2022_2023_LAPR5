@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-listar-camiao{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-listar-camiao{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-listar-camiao > h1 {
+    font-size: 3vw;
+    color: #ffc300;
+}
+
+.right-listar-camiao{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-listar-camiao{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-listar-camiao > h1{
+    color: #ffd60a;
+    font-weight: 800;
+    margin: 0;
+}
+
+.opcoes-camiao{
+    color: #fff;
+} 
+
+.opcoes-camiao > select{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.btn-listar-camiao{
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-home{
+    width: 5%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
+
+.btn-logout-listar-camiao{
+    width: 5%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+/*
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+    .left-login-image{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}*/
+
+.tabela-listar-camiao{
+    width:70%;
+    margin-left: 75px;
+}
+ 
+.nomeCamiaoTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.cargaTotalBateriasTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.taraTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.maximoCargaTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.autonomiaTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.tempoCarregamentoTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.matriculaCamiaoTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.ativoCamiaoTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+  td{
+    padding: 15px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }

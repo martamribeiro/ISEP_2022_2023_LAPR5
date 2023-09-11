@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-cancelar{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-cancelar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card-cancelar > h1{
+    color: #ffd60a;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+.textfield-cancelar{
+    /*width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;*/
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.textfield-cancelar > input{
+    width: 100%;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 15px;
+    background: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield-cancelar > label {
+    color: #fffbf0de;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.textfield-cancelar > input::placeholder{
+    color: #fffbf094;
+}
+
+.textfield-cancelar > input:hover{
+    border: 1px solid #ffc300;
+}
+
+.btn-cancelar{
+    width: 65%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-cancelar:hover{
+    background: #ffd60a;
+}
+
+.btn-home-cancelar{
+    width: 5%;
+    padding: 16px 0px;
+    /*margin-right: 75px;*/
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
+
+.btn-logout-cancelar-conta{
+    width: 5%;
+    padding: 16px 0px;
+    margin-left: 175px;
+    margin-top: -105px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .card-cancelar{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-cancelar{
+        flex-direction: column;
+    }
+    /*.left-login > h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }*/
+    .card-entrega{
+        width: 90%;
+    }
+}

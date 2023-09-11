@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-inibir-camiao{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-inibir-camiao{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-inibir-camiao{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-inibir-camiao > h1 {
+    font-size: 50px;
+    color: #ffc300;
+}
+
+.card-inibir-camiao{
+    width: 85%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.textfield-camiao{
+    width: 50%;
+    margin-bottom: 15px;
+    display: flex;
+    float: left;
+    /*align-items: center;*/
+}
+
+.textfield-camiao > input{
+    width: 100%;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 15px;
+    background: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield-camiao > label {
+    color:#fff;
+    margin-top: 10px;
+    width: 400px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.textfield-camiao > input::placeholder{
+    color: #fffbf094;
+}
+
+.textfield-camiao > input:hover{
+    border: 1px solid #ffc300;
+}
+
+.opcoes-camiao-ativo{
+    color:#151515;
+    background-color: #ffc300;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+} 
+
+.opcoes-camiao > select{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.opcoes-camiao-ativo > option{
+    background-color: #ffc300;
+    cursor: pointer;
+    color: #ffc300;
+}
+
+.opcoes-camiao-ativo:hover{
+    background: #ffd60a;
+}
+
+.btn-editar{
+    width: 25%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-listar{
+    width: 25%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-listar:hover{
+    background: #ffd60a;
+}
+
+.btn-editar:hover{
+    background: #ffd60a;
+}
+
+.btn-home{
+    width: 5%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-logout-inibir-camiao{
+    width: 5%;
+    padding: 16px 0px;
+    margin: 30px;
+    margin-left: -5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.tabela-inibir-camiao{
+    width:70%;
+  }
+ 
+.nomeCamiaoInibTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+.matriculaCamiaoInibTable{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}

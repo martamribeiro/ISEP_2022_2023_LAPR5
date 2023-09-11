@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>three.js webgl - orbit controls</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <style>
+        body {
+            background-color: #ccc;
+            color: #000;
+        }
+
+        a {
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "../../three.js-master/build/three.module.js",
+            "three/addons/": "../../three.js-master/examples/jsm/"
+            
+        }
+    }
+</script>
+
+    <script type="module">
+        import * as THREE from '../../three.js-master/build/three.module.js';
+        import RedeViaria from './rede_viaria_template.js';
+
+        let redeViaria;
+
+        function initialize(){
+            redeViaria = new RedeViaria();
+        }
+
+        function animate() {
+
+            requestAnimationFrame(animate);
+
+            redeViaria.controls.update(); // only required if controls.enableDamping = true, or if controls.autoRotate = true
+            redeViaria.update();
+
+            render();
+
+        }
+
+        function render() {
+
+            redeViaria.renderer.render(redeViaria.scene, redeViaria.camera);
+
+        }
+
+        initialize();
+        animate();
+
+        
+    </script>
+
+</body>
+
+</html>

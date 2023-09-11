@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-camiao{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card-camiao{
+    width: 60%;
+    display: table;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column;*/
+    padding: 35px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-top: 30px;
+}
+
+.card-camiao > h1{
+    color: #ffd60a;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
+.textfield-camiao{
+    width: 50%;
+    margin-bottom: 15px;
+    display: flex;
+    float: left;
+    /*align-items: center;*/
+}
+
+.textfield-camiao > input{
+    width: 100%;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 15px;
+    background: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield-camiao > label {
+    color: #fffbf0de;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.textfield-camiao > input::placeholder{
+    color: #fffbf094;
+}
+
+.textfield-camiao > input:hover{
+    border: 1px solid #ffc300;
+}
+
+.btn-criar{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+    text-align: center;
+}
+
+.btn-criar:hover{
+    background: #ffd60a;
+}
+
+.btn-home{
+    width: 5%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
+
+.btn-logout-criar-camiao{
+    width: 5%;
+    padding: 16px 0px;
+    margin-left: 175px;
+    margin-top: -120px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .card-entrega{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-entrega{
+        flex-direction: column;
+    }
+    
+    .card-entrega{
+        width: 90%;
+    }
+}

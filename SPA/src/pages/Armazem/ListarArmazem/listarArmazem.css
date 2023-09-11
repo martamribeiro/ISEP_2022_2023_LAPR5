@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-listar-armazem{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-listar-armazem{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-listar-armazem > h1 {
+    font-size: 3vw;
+    color: #ffc300;
+}
+
+.right-listar-armazem{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-listar-armazem{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-listar-armazem > h1{
+    color: #ffd60a;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield-listar-armazem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield-listar-armazem > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield-listar-armazem > label {
+    color: #fffbf0de;
+    margin-bottom: 10px;
+}
+
+.textfield-listar-armazem > input::placeholder{
+    color: #fffbf094;
+}
+
+.opcoes-armazem {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.opcoes-armazem > label {
+    color: #fffbf0de;
+    margin-bottom: 10px;
+}
+
+.opcoes-armazem > select {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.btn-listar-armazem{
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-inibir-armazem{
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.criar-armazem-buttons{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.btn-home-armazem-listar{
+    width: 5%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
+
+.btn-armazem-listar{
+    width: 5%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
+
+.output-armazem table {
+    width: 60%;
+}
+
+.output-armazem th{
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+}
+
+.output-armazem th:nth-child(2):hover{
+    background: #fff;
+    color: #2a2a2a;
+}
+
+.output-armazem th:nth-child(3):hover{
+    background: #fff;
+    color: #2a2a2a;
+}
+
+.output-armazem td{
+    padding: 5px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 10px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}

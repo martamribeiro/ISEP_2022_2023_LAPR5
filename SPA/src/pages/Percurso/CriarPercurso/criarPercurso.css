@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-percurso{
+    width: 100vw;
+    height: 100vh;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-percurso{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b1b1b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-top: 15px;
+}
+
+.card-percurso > h1{
+    color: #ffd60a;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+
+
+.textfield-percurso{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.textfield-percurso > input{
+    /*width: 100%;*/
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    /* padding: muda o tamanho da caixinha do input */
+    padding: 10px;
+    background: #2a2a2a;
+    color: #fffbf0de;
+    font-size: 11pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield-percurso > label {
+    color: #fffbf0de;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.textfield-percurso > input::placeholder{
+    color: #fffbf094;
+}
+
+.textfield-percurso > input:hover{
+    border: 1px solid #ffc300;
+}
+
+.errors > label {
+    color: #D6233F;
+    font-size: 12px;
+    display: flex;
+    justify-content: column;
+}
+
+.btn-criar{
+    width: 65%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    background: #ffc300;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffc40052;
+}
+
+.btn-criar:hover{
+    background: #ffd60a;
+}
+
+.btn-home{
+    width: 5%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .card-percurso{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-percurso{
+        flex-direction: column;
+    }
+    .card-percurso{
+        width: 90%;
+    }
+}
+
+.criar-percurso-buttons{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn-home-percurso-criar{
+    width: 5%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-right: 75px;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-percurso-criar{
+    width: 5%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    background: none;
+    cursor: pointer;
+}
